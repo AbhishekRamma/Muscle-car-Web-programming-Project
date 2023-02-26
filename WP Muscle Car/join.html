@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Join Us</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- javscript -->
+    <script src="javascript/script.js"></script>
+    <link href="css/style.css" rel="stylesheet" id="theme-link">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark py-3 px-lg-5 d-none d-lg-block">
+        <div class="row">
+            <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-body pr-3" href=""><i class="fa fa-phone-alt mr-2"></i>+230 969 6000</a>
+                    <span class="text-body">|</span>
+                    <a class="text-body px-3" href=""><i class="fa fa-envelope mr-2"></i>info@musclenation.mu</a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-body px-3" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-body px-3" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-body px-3" href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-body px-3" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-body pl-3" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="position-relative px-lg-5" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-uppercase text-primary mb-1">Muscle Nation</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="home.html" class="nav-item nav-link">Home Page</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle " data-toggle="dropdown">List of Posts</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="dodge.html" class="dropdown-item ">Dodge</a>
+                                <a href="ford.html" class="dropdown-item">Ford</a>
+                                <a href="chevrolet.html" class="dropdown-item">Chevrolet</a>
+                            </div>
+                        </div>
+                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                        <a href="sitemap.html" class="nav-item nav-link ">Sitemap</a>
+                        <a href="aboutus.html" class="nav-item nav-link">About us</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact us</a>
+                        <a href="join.html" class="nav-item nav-link active">Join us</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header">
+        <h1 class="display-3 text-uppercase text-white mb-3">Join us</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a class="text-white" href="">Home</a></h6>
+            <h6 class="text-body m-0 px-3">/</h6>
+            <h6 class="text-uppercase text-body m-0">Join us</h6>
+        </div>
+    </div>
+    <!-- Page Header Start -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-4 text-uppercase text-center mb-5">Join Us</h1>
+            <div class="row">
+                <div class="col-lg-12 mb-4">
+                    <div class="contact-form bg-light mb-4" style="padding: 30px;">
+                        <form id="myform" onsubmit="return validateForm()">
+                            <div class="row">
+                                <div class="col-6 form-group">
+                                    <input type="text" class="form-control p-4" placeholder="First Name" name="fname"
+                                        id="fname"><span id="Message"></span>
+                                </div>
+                                <div class="col-6 form-group">
+                                    <input type="text" class="form-control p-4" placeholder="Last Name" name="lname"
+                                        id="lname"><span id="Message1"></span>
+                                </div>
+                                <br><br>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control p-4" placeholder="Phone Number" name="pnumber"
+                                    id="pnumber"> <span id="Message3"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control p-4" placeholder="Age" name="age" id="age"><span
+                                    id="Message4"></span>
+                            </div>
+
+                            <div class="col-4 form-group">
+                                <p>Select gender</p>
+                                <input type="radio" id="Male" name="gender" value="Male" id="male">
+                                <label for="Male">Male</label><br>
+                                <input type="radio" id="Female" name="gender" value="Female" id="female">
+                                <label for="Female">Female</label><br>
+                                <input type="radio" id="other" name="gender" value="other" id="other">
+                                <label for="other">Other</label>
+                            </div>
+
+                            <br><br>
+                            <hr><br><br>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control p-4" placeholder="Email Address" name="email"
+                                    id="email"><span id="Message2"></span>
+                            </div>
+                            <div class="form-group">
+                                <!--  <input style="height: 50px;" class="form-control py-3 px-4" type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Password" >-->
+
+                                <input type="password" class="form-control p-4" placeholder="Password" name="psw"
+                                    id="psw"><span id="Message5"></span>
+                            </div>
+
+                            <br><br>
+                            <hr><br><br>
+
+                            <div class="col-4 form-group">
+                                <p>Do you own a muscle car</p>
+                                <input type="checkbox" id="musclecar" name="musclecar">
+                                <label for="musclecar">Yes</label><br>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <p>If yes, which one of these brand will you select</p>
+                                <select name="cars" id="cars">
+                                    <option value="Chevrolet">Chevrolet</option>
+                                    <option value="Ford">Ford</option>
+                                    <option value="Dodge">Dodge</option>
+                                </select>
+                            </div>
+
+                            <br>
+                            <hr><br>
+                            <div class="form-group">
+                                <p>Enter your Experience</p>
+                                <textarea placeholder="Your Experience" rows="8" name="text" id="experience" cols="128">
+
+                                </textarea>
+                            </div>
+                            <br><br>
+                            <div class="container-center">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Submit</button>
+                            </div>
+                            <br><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-uppercase text-light mb-4">Get In Touch</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-white mr-3"></i>420, Papayes Ln, Petit vergee,
+                    Mauritius</p>
+                <p class="mb-2"><i class="fa fa-phone-alt text-white mr-3"></i>+230 969 6000</p>
+                <p><i class="fa fa-envelope text-white mr-3"></i>info@musclenation.mu</p>
+                <h6 class="text-uppercase text-white py-2">Follow Us</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-dark btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-uppercase text-light mb-4">Car Gallery</h4>
+                <div class="row mx-n1">
+                    <div class="col-4 px-1 mb-2">
+                        <a href=""><img class="w-100" src="img/embaschev.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 px-1 mb-2">
+                        <a href=""><img class="w-100" src="img/galdodge4.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 px-1 mb-2">
+                        <a href=""><img class="w-100" src="img/image4.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-uppercase text-light mb-4">Newsletter</h4>
+                <p class="mb-4">Subscribe</p>
+                <div class="w-100 mb-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-dark border-dark" style="padding: 25px;"
+                            placeholder="Your Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary text-uppercase px-3">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+                <i>Thanks for your visit</i>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark py-4 px-sm-3 px-md-5">
+        <p class="mb-2 text-center text-body">&copy; <a href="home.html">Muscle Nation Ltd</a>. All Rights Reserved.</p>
+    </div>
+
+<!-- save form to local storage starts -->
+    <script>
+
+
+        const savedData = JSON.parse(localStorage.getItem('data')) || [];
+
+        function addData() {
+
+            const firstNameInput = document.getElementById('fname').value;
+            const lastNameInput = document.getElementById('lname').value;
+            const phoneInput = document.getElementById('pnumber').value;
+            const ageInput = document.getElementById('age').value;
+            const genderInput = document.querySelector('input[name="gender"]:checked').value;
+            const emailInput = document.getElementById('email').value;
+            const passwordInput = document.getElementById('psw').value;
+            const muscleCarInput = document.getElementById('musclecar').checked;
+            const carBrandInput = document.getElementById('cars').value;
+            const experienceInput = document.getElementById('experience').value;
+
+            if(validateForm()== false){
+                return false;
+            }
+            const confirmation = confirm(`Are you sure you want to save the following data?
+        
+            Name: ${firstNameInput} ${lastNameInput}
+            Phone: ${phoneInput}
+            Age: ${ageInput}
+            Gender: ${genderInput}
+            Email: ${emailInput}
+            Password: ${passwordInput}
+            Muscle Car: ${muscleCarInput ? 'Yes' : 'No'}
+            Car Brand: ${carBrandInput}
+            Experience: ${experienceInput}`);
+                
+
+            if (confirmation) {
+                const data = {
+                    firstName: firstNameInput,
+                    lastName: lastNameInput,
+                    phone: phoneInput,
+                    age: ageInput,
+                    gender: genderInput,
+                    email: emailInput,
+                    password: passwordInput,
+                    muscleCar: muscleCarInput,
+                    carBrand: carBrandInput,
+                    experience: experienceInput
+                };
+                savedData.push(data);
+                localStorage.setItem('data', JSON.stringify(savedData));
+                //alert('Your data has been saved to local storage.');
+                if (!alert('Your data has been saved to local storage.')) { document.getElementById("myform").reset();window.location.reload(); }
+            }
+        }
+
+        document.getElementById('myform').addEventListener('submit', (event) => {
+            event.preventDefault();
+            addData();
+        });
+
+
+    </script>
+    <!-- save form to local storage ends  -->
+
+    <script>
+
+        function validateForm() {
+            var text_correct_way = /^[A-Za-z]+$/
+            var num_correct_way = /^[0-9]+$/
+            var lower_correct_way = /^[a-z]+$/
+            var upper_correct_way = /^[A-Z]+$/
+
+            var a = document.getElementById("fname").value;
+            var b = document.getElementById("lname").value;
+            var c = document.getElementById("email").value;
+            var d = document.getElementById("pnumber").value;
+            var e = document.getElementById("age").value;
+            var f = document.getElementById("psw").value;
+
+            if (a == "") {
+                document.getElementById("Message").innerHTML = "Please fill First Name";
+                alert("please fill the first name")
+                return false;
+            }
+            if (a.length < 2) {
+                document.getElementById("Message").innerHTML = "First Name should be greater than one character";
+                alert("First name should be greater than one character")
+                return false;
+            }
+
+            if (a.match(text_correct_way)) {
+                true;
+            } else {
+                document.getElementById("Message").innerHTML = "First Name Should Contain only alphabets";
+                alert("First Name should contain only alphabets")
+                return false;
+            }
+
+            if (b == "") {
+                document.getElementById("Message1").innerHTML = "Please fill Last Name";
+                alert("Please fill the Last name")
+                return false;
+            }
+            if (b.length < 2) {
+                document.getElementById("Message1").innerHTML = "Last Name should be greater than one character";
+                alert("Last name should be greater than one character")
+                return false;
+            }
+
+            if (b.match(text_correct_way)) {
+                true;
+            } else {
+                document.getElementById("Message1").innerHTML = "Last Name Should Contain only alphabets";
+                alert("Last Name should contain only alphabets")
+                return false;
+            }
+
+            if (d == "") {
+                document.getElementById("Message3").innerHTML = "Please fill Phone Number";
+                alert("Please fill Phone Number")
+                return false;
+            }
+
+            if (d.match(num_correct_way)) {
+                true;
+            } else {
+                document.getElementById("Message3").innerHTML = "Phone Number Should Contain only numbers";
+                alert("Phone Number Should Contain only numbers")
+                return false;
+            }
+            if (d.charAt(0) != 5) {
+                document.getElementById("Message3").innerHTML = "Phone Number Should start with 5";
+                alert("Phone Number should start with 5")
+                return false;
+            }
+
+            if (d.length != 8) {
+                document.getElementById("Message3").innerHTML = "The length of phone number should be exactly 8";
+                alert("Length of phone number should exactly be 8")
+                return false;
+            }
+
+            if (e == "") {
+                document.getElementById("Message4").innerHTML = "Please fill Age";
+                alert("Age")
+                return false;
+            }
+
+            if (e.match(num_correct_way)) {
+                true;
+            } else {
+                document.getElementById("Message4").innerHTML = "Age Should Contain only numbers";
+                alert("Age Should Contain only numbers")
+                return false;
+            }
+            if (e < 18) {
+                document.getElementById("Message4").innerHTML = "You should be 18 or above to register";
+                alert("You should be 18 or above to register");
+                return false;
+            }
+
+            if (c == "") {
+                document.getElementById("Message2").innerHTML = "Please fill Email";
+                alert("Please fill Email")
+                return false;
+            }
+            if (c.indexOf("@") <= 0) {
+                document.getElementById("Message2").innerHTML = "Email cannot start with @";
+                alert("Email cannot start with @")
+                return false;
+            }
+
+            if (f == "") {
+                document.getElementById("Message5").innerHTML = "Please fill Password";
+                alert("Please fill Password")
+                return false;
+            }
+
+            if (f.match(/[0-9]/)) {
+                true;
+            } else {
+                document.getElementById("Message5").innerHTML = "Password should contain atleast one number";
+                alert("Password should contain atleast one number")
+                return false;
+            }
+            if (f.match(/[a-z]/)) {
+                true;
+            } else {
+                document.getElementById("Message5").innerHTML = "Password should contain atleast one lowercase character";
+                alert("Password should contain atleast one lowercase character")
+                return false;
+            }
+            if (f.match(/[A-Z]/)) {
+                true;
+            } else {
+                document.getElementById("Message5").innerHTML = "Password should contain atleast one uppercase character";
+                alert("Password should contain atleast one uppercase character")
+                return false;
+            }
+            if (f.length < 8) {
+                document.getElementById("Message5").innerHTML = "Password should contain atleast 8 characters";
+                alert("Password should contain atleast 8 characters")
+                return false;
+            }
+        }
+
+    </script>
+
+</html>
